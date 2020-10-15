@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rectangle{
+        position: relative;
+        margin: 0 auto;
+        height: 400px;
+        width: 800px;
+        background-color: #ccc;
+    }
+
+    .sector1{
+        height: 0;
+        width: 0;
+        border-width: 60px;
+        border-radius: 0 0 100% 0;
+        border-color: #fc0;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .sector2{
+        height: 0;
+        width: 0;
+        border-width: 60px;
+        border-radius: 100% 0 0 0;
+        border-color: #fc0;
+        border-style: solid;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+</style>
+<body>
+    <div class="rectangle">
+        <div class="sector1"></div>
+        <div class="sector2"></div>
+    </div>
+</body>
+</html>
