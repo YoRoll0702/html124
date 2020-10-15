@@ -1,0 +1,18 @@
+#header{
+    background-color: #cdd3de;
+  }
+  #content{
+    background-color: #f0b7c0;
+    float: left;
+  }
+  #sidebar{
+    background-color: #f0d2e6;
+    float: left;
+  }
+  #sidebar2{
+    background-color: #c3eedf;
+    float: left;
+  }
+  #footer{
+    background-color: #f7f9c2;
+  }
